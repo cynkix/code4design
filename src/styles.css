@@ -241,7 +241,7 @@ video#bgvid {
 #spaceZ {
   background-blend-mode: color-dodge;
   opacity: 0.4;
-  background-image: url("/pic/BKG.jpg");
+  background-image: url("pic/BKG.jpg");
 }
 
 #spaceZ :hover {
