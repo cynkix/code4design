@@ -29,20 +29,15 @@ let design = {
  console.log(design.fatec.name);
  
        
-let button = document.querySeletion('button');
+let button = document.querySelector("button");
+
 let nbLike=0;
-button.addListener(click,()=> 
-{  
-  button.style.animation = 'blink 0.2s linear 5 alternate';  
+
+button.addEventListener("click", () => {      
   ndLike++;
-  if(nbLike>1){
-    button.innerHTML=nbLike + 'likes';
-  }else {
-    button.innerHTML=nbLike + ' do you like?';
+  if (nbLike > 1) {
+    button.innerHTML = nbLike + "likes";
+  } else {
+    button.innerHTML = nbLike + "do you like?" ;
   }
 });
-
-console.log(UUUUU);
-button.addListener('animationned',() => {
- button.style.animation = 'none';
-         });
