@@ -235,8 +235,7 @@ video#bgvid {
    padding: 1em;
    background: -moz-linear-gradient(-45deg, rgba(0,0,0,1) 33%, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 100%); 
    background: -webkit-linear-gradient(-45deg, rgba(0,0,0,1) 33%,rgba(0,0,0,1) 50%,rgba(0,0,0,0) 100%); 
-     background: linear-gradient(135deg, rgba(0,0,0,1) 33%,rgba(0,0,0,1) 50%,rgba(0,0,0,0) 100%); 
-}
+     background: linear-gradient(135deg, rgba(0,0,0,1) 33%,rgba(0,0,0,1) 50%,rgba(0,0,0,0) 100%); }
 */
 
 #spaceZ {
@@ -275,6 +274,7 @@ video#bgvid {
   text-align: center;
   position: relative;
 }
+
 #masker :hover {
   transition: margin-right 4s, color 1s;
 }
@@ -291,6 +291,7 @@ video#bgvid {
   color: #000;
   font-size: 19vw;
 }
+
 #masker img {
   position: absolute;
   top: 0;
