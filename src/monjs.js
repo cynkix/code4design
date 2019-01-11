@@ -23,6 +23,7 @@ let design = {
                      codeur: 'romain',
                      client: 'BNP'
                      }
+}
                      
  
  console.log(design.fatec.name);
