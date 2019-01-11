@@ -240,9 +240,16 @@ video#bgvid {
 */
 
 #spaceZ {
+  background-blend-mode: color-dodge;
+  opacity: 0.4;
   background-image: url("src/pic/BKG.jpg");
+}
 
+#spaceZ :hover {
   animation: fadeIn 4s;
+}
+#cosmo :hover {
+  opacity: 1;
 }
 
 #me img {
@@ -267,8 +274,11 @@ video#bgvid {
 #masker {
   text-align: center;
   position: relative;
+}
+#masker :hover {
   transition: margin-right 4s, color 1s;
 }
+
 #masker h3 {
   margin: 0;
   font-size: 20vw;
